@@ -23,7 +23,6 @@ class Keyword(models.Model):
         verbose_name = _('keyword')
         verbose_name_plural = _('keywords')
         ordering = ('keyword',)
-        order_with_respect_to = 'category'
     
     def __unicode__(self):
         return self.keyword
