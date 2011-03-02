@@ -42,14 +42,9 @@
         var jqElements = this;
         //TODO: be more efficient
         $.each(words, function(idx, word){
-            jqElements.each(function(){findAndHighlightTextNodes(this, word)});
-        });
-    }
-    
-    $.fn.stabilo.json = function(category, options) {
-        var url = '/stabilo/category/' + category + '/keywords/';
-        $.getJSON(url, {}, function(words){
-            $.fn.stabilo(words, options);
+            jqElements.each(function(){
+                console.log(word);
+            findAndHighlightTextNodes(this, word)});
         });
     }
 })(jQuery);

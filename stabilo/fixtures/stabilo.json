@@ -1,28 +1,10 @@
 [
  {"pk": 1, "model": "stabilo.category", "fields": {"slug": "general", "label": "Infos générales"}},
- {"pk": 1, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "procédure"}},
- {"pk": 2, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "accord cadre"}},
- {"pk": 3, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "avis de pré-information"}},
- {"pk": 4, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "concours d'idées"}},
- {"pk": 5, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "concours international"}},
- {"pk": 6, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "concours restreint"}},
- {"pk": 7, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "concours ouvert"}},
- {"pk": 8, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "dialogue compétitif"}},
- {"pk": 9, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "marché négocié"}},
- {"pk": 10, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "procédure adaptée"}},
- {"pk": 11, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "procédure restreinte"}},
- {"pk": 12, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "aménagement intérieur"}},
- {"pk": 13, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "assistance a MO"}},
- {"pk": 14, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "conception-réalisation"}},
- {"pk": 15, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "construction"}},
- {"pk": 16, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "étude"}},
- {"pk": 17, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "étude de définition"}},
- {"pk": 18, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "étude de faisabilité"}},
- {"pk": 19, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "étude de programmation"}},
- {"pk": 20, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "extension"}},
- {"pk": 21, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "reconstruction"}},
- {"pk": 22, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "réhabilitation"}},
- {"pk": 23, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "résidentialisation"}},
- {"pk": 24, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "restructuration"}},
- {"pk": 25, "model": "stabilo.keyword", "fields": {"category": 1, "_order": 0, "keyword": "promotion immobilière"}}
+ {"pk": 2, "model": "stabilo.category", "fields": {"slug": "specific", "label": "Infos particulières"}},
+ {"pk": 3, "model": "stabilo.category", "fields": {"slug": "grouping", "label": "Infos groupement"}},
+ {"pk": 4, "model": "stabilo.category", "fields": {"slug": "contact", "label": "Infos contact"}},
+ {"pk": 5, "model": "stabilo.category", "fields": {"slug": "mailmerge", "label": "Infos publipostage"}}
 ]
+
+
+
