@@ -43,7 +43,6 @@
         //TODO: be more efficient
         $.each(words, function(idx, word){
             jqElements.each(function(){
-                console.log(word);
             findAndHighlightTextNodes(this, word)});
         });
     }
