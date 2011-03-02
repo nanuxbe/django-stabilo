@@ -14,7 +14,7 @@ class Category(models.Model):
         return self.label
 
 class Keyword(models.Model):
-    keyword = models.CharField(_('keyword'), max_length=150)
+    keyword = models.CharField(_('keyword'), max_length=250)
     category = models.ForeignKey(Category,
                                     verbose_name=_('category'),
                                     related_name='keywords')
