@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import patterns, url
 
 urlpatterns = patterns('stabilo.views',
     url(r'^category/(?P<slug>\w+)/keywords/$',
