@@ -3,6 +3,11 @@
         var settings = {
             'className': 'highlight',
         }
+        var noHighlightTags = [
+            'TEXTAREA',
+            'INPUT',
+            'SELECT',
+        ]
         $.extend(settings, options);
         
         function highlightWordInTextNode(textNode, word) {
@@ -30,7 +35,7 @@
             if (node.nodeType == TEXT_NODE) {
                 highlightWordInTextNode(node, word);
             }
-            else if (node.nodeType == NOT_TEXT_NODE) {
+            else if (node.nodeType == NOT_TEXT_NODE && noHighlightTags.indexOf(node.tagName) == -1) {
                 $.each(node.childNodes, function(){
                     findAndHighlightTextNodes(this, word);
                 })
