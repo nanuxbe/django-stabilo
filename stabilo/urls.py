@@ -1,10 +1,12 @@
-from django.conf.urls import patterns, url
+from django.conf.urls import url
 
-urlpatterns = patterns('stabilo.views',
+from stabilo.views import keywords_for_category, all_keywords
+
+urlpatterns = [
     url(r'^category/(?P<slug>\w+)/keywords/$',
-        view='keywords_for_category',
+        view=keywords_for_category,
         name='stabilo-keywords-for-category'),
     url(r'^keywords/$',
-        view='all_keywords',
+        view=all_keywords,
         name='stabilo-all-keywords')
-)
+]
